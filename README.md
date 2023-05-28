@@ -10,3 +10,6 @@ For “Get the duplicate mice by ID number that shows up for Mouse ID and Timepo
 5/26
 Selecting all items in a column based on a specific value https://www.statology.org/pandas-select-rows-based-on-column-values/
 Calculating stats used previous assignments, no outside resources
+
+5/28
+Worked on summary table - no issue
