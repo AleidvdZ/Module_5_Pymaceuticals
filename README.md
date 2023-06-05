@@ -51,8 +51,17 @@ Suggestion from Eva P was to look back at Pandas loc and iloc in class instructo
  For determining outliers used the module_5 instructor demo 2 example
  still stuck in loop returning everything - frustrated! This part should be simple :(
  
+6/5
+Quartiles etc. (con't)
+created a temp df in for loop using loc was able to id outlier correctly
+got error "C:\Users\Aleid van der Zel\AppData\Local\Temp\ipykernel_18812\1988230251.py:35: UserWarning: Boolean Series key will be reindexed to match DataFrame index." so reset index for the temp df - this did NOT fix the issue
+
+Trying to "save" output from loop for chart https://sparkbyexamples.com/pandas/convert-pandas-dataframe-to-series/#:~:text=Use%20squeeze()%20to%20Convert,convert%20and%20call%20the%20squeeze.
  
+I saved output by merging into an empty dataframe which worked! Will use this for chart. https://sparkbyexamples.com/pandas/pandas-append-rows-columns-to-empty-dataframe/#:~:text=3.-,Append%20Rows%20to%20Empty%20DataFrame,return%20a%20new%20DataFrame%20object.
  
+boxplot from dataframe https://sparkbyexamples.com/pandas/pandas-boxplot-from-dataframe/ 
+returns with error
     
     
     
