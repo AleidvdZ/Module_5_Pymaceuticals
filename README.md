@@ -30,15 +30,33 @@ Madplotlib pie https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.plo
 adding %'s and removing legend https://digestize.medium.com/how-to-create-a-matplotlib-pie-chart-annotated-with-percentages-and-labels-3f7274845142
 
 Quartiles etc. section 
-    needed to reduce df based on row condtion https://www.geeksforgeeks.org/selecting-rows-in-pandas-dataframe-based-on-conditions/
+needed to reduce df based on row condition https://www.geeksforgeeks.org/selecting-rows-in-pandas-dataframe-based-on-conditions/
 
-    Following instructions, don't need what I did in 32 but instead needed this to find max timepoint:
-    https://stackoverflow.com/questions/15705630/get-the-rows-which-have-the-max-value-in-groups-using-groupby
+Following instructions, don't need what I did in 32 but instead needed this to find max timepoint:
+https://stackoverflow.com/questions/15705630/get-the-rows-which-have-the-max-value-in-groups-using-groupby
 
-    Used this to merge on two columns https://realpython.com/pandas-merge-join-and-concat/
+Used this to merge on two columns https://realpython.com/pandas-merge-join-and-concat/
 
-     "The interquartile range (IQR) is the difference between the 75th and 25th percentile of the data." 
-     https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.iqr.html
+"The interquartile range (IQR) is the difference between the 75th and 25th percentile of the data." 
+https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.iqr.html
 
+6/4
+Quartiles etc. (con't)
+Ended up reducing rows to only drugs of interested in using link in 33
+    
+Then groupby each drug and put into a list https://sparkbyexamples.com/pandas/pandas-group-dataframe-rows-list-groupby/#:~:text=You%20can%20group%20DataFrame%20rows,the%20list%20for%20every%20group.
+That didn't work and tried several iterations of for loops but kept getting all rows back so asked for help
+Suggestion from Eva P was to look back at Pandas loc and iloc in class instructor and student solutions as well as https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.loc.html - super helpful
+    
+ For determining outliers used the module_5 instructor demo 2 example
+ still stuck in loop returning everything - frustrated! This part should be simple :(
+ 
+ 
+ 
+    
+    
+    
+    
+    
 
 
